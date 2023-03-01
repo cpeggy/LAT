@@ -10,5 +10,5 @@
 ## 課程練習區
 #### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
 ## 作業連結區
-#### [第二週HW]()
+#### [第二週HW](https://github.com/cpeggy/LAT/blob/main/week2_0301.ipynb)
 ## 專題連結區
