@@ -7,6 +7,6 @@
 ## 課程ppt
 ##### [第一周](https://docs.google.com/presentation/d/e/2PACX-1vSInSmBw4pmnFj-4BoVDQcXDkXJ23WMGXBWPkHTTm99t0rigaeIYzMpjC8Q7nKu9SZWeNAs6q1Wy5ZE/pub?start=false&loop=false&delayms=3000&slide=id.p)
 ##### [第二周]()
-## 課程筆記區
+## 課程練習區
 ## 作業連結區
 ## 專題連結區
