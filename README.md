@@ -8,7 +8,8 @@
 #### [第一周](https://docs.google.com/presentation/d/e/2PACX-1vSInSmBw4pmnFj-4BoVDQcXDkXJ23WMGXBWPkHTTm99t0rigaeIYzMpjC8Q7nKu9SZWeNAs6q1Wy5ZE/pub?start=false&loop=false&delayms=3000&slide=id.p)
 #### [第二周](https://docs.google.com/presentation/d/e/2PACX-1vT-TbdyqnFFYyOREkTHFGj8OMr3z4-77otHUtDB1PZk_hy4H1sO0_ZXdsaTg1qping-CP_2kEhcvlu0/pub?start=false&loop=false&delayms=3000&slide=id.p)
 ## 課程練習區
-#### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
+### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
 ## 作業連結區
-#### [第二週HW](https://github.com/cpeggy/LAT/blob/main/week2_0301.ipynb)
+### [第二週HW](https://github.com/cpeggy/LAT/blob/main/week2_0301.ipynb)
+#### [Reference1 dataframe篩選](https://ithelp.ithome.com.tw/articles/10194003?sc=hot)
 ## 專題連結區
