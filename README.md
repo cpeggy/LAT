@@ -11,5 +11,6 @@
 ### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
 ## 作業連結區
 ### [第二週HW](https://github.com/cpeggy/LAT/blob/main/week2_0301.ipynb)
-#### [Reference1 dataframe篩選](https://ithelp.ithome.com.tw/articles/10194003?sc=hot)
+#### [Reference1 Dataframe篩選](https://ithelp.ithome.com.tw/articles/10194003?sc=hot)
+#### [Reference2 建立新的Dataframe](https://www.keywordseo.com.tw/blog1/python-pandas-df-loc/)
 ## 專題連結區
