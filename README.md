@@ -8,9 +8,11 @@
 #### [第二周](https://docs.google.com/presentation/d/e/2PACX-1vT-TbdyqnFFYyOREkTHFGj8OMr3z4-77otHUtDB1PZk_hy4H1sO0_ZXdsaTg1qping-CP_2kEhcvlu0/pub?start=false&loop=false&delayms=3000&slide=id.p)
 #### [第三周](https://docs.google.com/presentation/d/e/2PACX-1vRQ-QbIIGrpvbC7PkYFtWhT8hhT2pREfIYP5OxiYPF125Ag1u4ln-f7EKR_znsU-bM1z-RrxFY3qHba/pub?start=false&loop=false&delayms=3000&slide=id.p)
 ## 課程練習區
-### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
-## 作業連結區
-### [第二週HW](https://github.com/cpeggy/LAT/blob/main/Week2/week2_0301.ipynb)
+### [0301_練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
+### [0301_小整理資料](https://github.com/cpeggy/LAT/blob/main/Week2/week2_0301.ipynb)
 #### [Reference1 Dataframe篩選](https://ithelp.ithome.com.tw/articles/10194003?sc=hot)
 #### [Reference2 建立新的Dataframe](https://www.keywordseo.com.tw/blog1/python-pandas-df-loc/)
+## 作業連結區
+### [HW1](https://github.com/cpeggy/LAT/blob/main/Week2/week2_0301.ipynb)
+
 ## 專題連結區
