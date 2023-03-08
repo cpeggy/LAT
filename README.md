@@ -14,5 +14,6 @@
 #### [Reference2 建立新的Dataframe](https://www.keywordseo.com.tw/blog1/python-pandas-df-loc/)
 ## 作業連結區
 ### [HW1](https://github.com/cpeggy/LAT/blob/main/Hw1/hw1_0308.ipynb)
+#### [Re1](https://ithelp.ithome.com.tw/articles/10200433)
 
 ## 專題連結區
