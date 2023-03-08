@@ -1,5 +1,4 @@
-# 111-2 臺師大教育大數據微學程
-## 課名:學習分析工具實務應用
+# 111-2 臺師大教育大數據微學程 學習分析工具實務應用LAT
 ## 自我介紹
 #### 姓名：簡珮軒
 #### 系級：科技系二年級
@@ -10,7 +9,7 @@
 ## 課程練習區
 ### [練習地端上傳](https://github.com/cpeggy/LAT/blob/main/TEST.ipynb)
 ## 作業連結區
-### [第二週HW](https://github.com/cpeggy/LAT/blob/main/week2_0301.ipynb)
+### [第二週HW](https://github.com/cpeggy/LAT/blob/main/Week2/week2_0301.ipynb)
 #### [Reference1 Dataframe篩選](https://ithelp.ithome.com.tw/articles/10194003?sc=hot)
 #### [Reference2 建立新的Dataframe](https://www.keywordseo.com.tw/blog1/python-pandas-df-loc/)
 ## 專題連結區
