@@ -16,5 +16,6 @@
 ## 作業連結區
 ### [HW1](https://github.com/cpeggy/LAT/blob/main/Hw1/hw1_0308.ipynb)
 #### [Re1](https://ithelp.ithome.com.tw/articles/10200433)
+### [HW2](https://github.com/cpeggy/LAT/blob/main/Hw2/Hw2.ipynb)
 
 ## 專題連結區
