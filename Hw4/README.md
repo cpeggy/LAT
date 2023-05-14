@@ -1,6 +1,6 @@
 # 作業四 LineChatBox
 ### level 1 echo
-![Echo 像鸚鵡一樣重複語句](/path/to/img.jpg)
+![Echo 像鸚鵡一樣重複語句](https://github.com/cpeggy/LAT/blob/main/Hw4/echo.jpg)
 #### [完整code]()
 ---------------------------------------
 ### level 2 判斷正負中性情緒
