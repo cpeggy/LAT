@@ -23,6 +23,8 @@ app.listen(port, () => {
   console.log(`listening on ${port}`);
 });
 
+
+
 async function MS_TextSentimentAnalysis(text) {
   console.log("[MS_TextSentimentAnalysis] in");
   const analyticsClient = new TextAnalyticsClient(endpoint, new AzureKeyCredential(apiKey));
@@ -30,6 +32,7 @@ async function MS_TextSentimentAnalysis(text) {
   documents.push(text);
   const results = await analyticsClient.analyzeSentiment(documents);
   return results;
+
 }
 
 app.post('/callback', line.middleware(configline), (req, res) => {
@@ -54,12 +57,13 @@ function handleEvent(event) {
     .then((result) => {
       if (result.length > 0) {
         sentiment = result[0].sentiment;
-        console.log("result:", result[0]); // 在這裡加入 console.log
+        console.log("result:", result[0]); 
         if (result[0].sentences && result[0].sentences.length > 0) {
           let sentence = result[0].sentences[0];
           if (sentence.subjects && sentence.subjects.length > 0) {
             mainNoun = sentence.subjects[0].text;
           }
+         console.log(`listening on ${result}`)
         }
       }
       
