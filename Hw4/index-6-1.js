@@ -30,7 +30,7 @@ async function MS_TextSentimentAnalysis(text) {
   const analyticsClient = new TextAnalyticsClient(endpoint, new AzureKeyCredential(apiKey));
   let documents = [];
   documents.push(text);
-  const results = await analyticsClient.analyzeSentiment(documents,"zh-Hant",{        includeOpinionMining: true    });
+  const results = await analyticsClient.analyzeSentiment(documents);
   return results;
 
 }
@@ -61,12 +61,9 @@ function handleEvent(event) {
         if (result[0].sentences && result[0].sentences.length > 0) {
           let sentence = result[0].sentences[0];
           if (sentence.subjects && sentence.subjects.length > 0) {
-            mainNoun = sentence.opinions[0].target.text;
-            
+            mainNoun = sentence.subjects[0].text;
           }
          console.log(`listening on ${result}`)
-         console.log(`listening on ${mainNoun}`)
-
         }
       }
       
