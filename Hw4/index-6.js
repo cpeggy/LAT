@@ -60,12 +60,11 @@ function handleEvent(event) {
         console.log("result:", result[0]); 
         if (result[0].sentences && result[0].sentences.length > 0) {
           let sentence = result[0].sentences[0];
-          if (sentence.subjects && sentence.subjects.length > 0) {
+          if (sentence && sentence.opinions[0].target.length > 0) {
             mainNoun = sentence.opinions[0].target.text;
-            
+            console.log(`listening on ${mainNoun}`)
           }
          console.log(`listening on ${result}`)
-         console.log(`listening on ${mainNoun}`)
 
         }
       }
