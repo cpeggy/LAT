@@ -20,5 +20,6 @@
 #### [HW2](https://github.com/cpeggy/LAT/blob/main/Hw2/Hw2.ipynb)
 ### [HW3_nbviewer](https://nbviewer.org/github/cpeggy/LAT/blob/main/HW3/Hw3.ipynb#topic=0&lambda=1&term=)
 #### [HW3_juypternotebook](https://github.com/cpeggy/LAT/blob/main/HW3/Hw3.ipynb)
-### [HW4_]()
+### [HW4_聊天機器人客服回應](https://github.com/cpeggy/LAT/blob/main/Hw4/README.md)
+### [HW5_辨識圖與物件-教育目的結合圖片分析](https://github.com/cpeggy/LAT/blob/main/Hw5/README.md)
 ## 專題連結區
