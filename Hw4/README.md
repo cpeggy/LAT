@@ -34,3 +34,10 @@
 ```
 #### [完整code](https://github.com/cpeggy/LAT/blob/main/Hw4/index-5.js)
 ---------------------------------------
+### level 6 把問題與客套回應連結（提取主詞來回應）
+![主詞+問題結合情緒反應客套回應](https://github.com/cpeggy/LAT/blob/main/Hw4/%E6%AD%A3%E8%B2%A0%E9%9D%A2%2B%E9%A3%AF%E5%BA%97%E9%85%8D%E4%B8%BB%E8%A9%9E%E5%AE%A2%E5%A5%97%E5%9B%9E%E6%87%89(%E4%B8%BB%E8%A9%9E).jpg))
+```
+接收到一串的問題惹~也知道哪裡有問題惹！
+```
+#### [完整code](https://github.com/cpeggy/LAT/blob/main/Hw4/index-6.js)
+---------------------------------------
