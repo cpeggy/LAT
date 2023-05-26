@@ -9,8 +9,6 @@ $(document).ready(function(){
 });
 
 function processImageFile(imageObject) {
-
-    //確認區域與所選擇的相同或使用客製化端點網址
     var url = "https://eastus.api.cognitive.microsoft.com/";
     var uriBase = url + "vision/v2.1/analyze";
 
@@ -19,51 +17,47 @@ function processImageFile(imageObject) {
         "details":"",
         "language": "en",
     };
-    //顯示分析的圖片
-    var sourceImageUrl = document.getElementById("#inputImageFile").value;
+
+    var sourceImageUrl = URL.createObjectURL(imageObject);
     document.querySelector("#sourceImage").src = sourceImageUrl;
-    //送出分析
+
+    var formData = new FormData();
+    formData.append("file", imageObject);
+
     $.ajax({
         url: uriBase + "?" + $.param(params),
-        // Request header
         beforeSend: function (xhrObj) {
-            xhrObj.setRequestHeader("Content-Type", "application/octet-stream");
             xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", subscriptionKey);
         },
         type: "POST",
-        processData:false,
-        contentType:false,
-        // Request body
-        data: imageObject
+        processData: false,
+        contentType: false,
+        data: formData,
     })
-        .done(function (data) {
-            //顯示JSON內容
-            $("#responseTextArea").val(JSON.stringify(data, null, 2));
-            $("#picDescription").empty();
-            
-            $("#picDescription").append("Color: "+data.color.dominantColors+"<br>");
-            $("#picDescription").append("Object: "+data.objects[0].object+"<br>");
-        })
-        .fail(function (jqXHR, textStatus, errorThrown) {
-            //丟出錯誤訊息
-            var errorString = (errorThrown === "") ? "Error. " : errorThrown + " (" + jqXHR.status + "): ";
-            errorString += (jqXHR.responseText === "") ? "" : jQuery.parseJSON(jqXHR.responseText).message;
-            alert(errorString);
-        });
-};
+    .done(function (data) {
+        $("#responseTextArea").val(JSON.stringify(data, null, 2));
+        $("#picDescription").empty();
 
+        $("#picDescription").append("Color: " + data.color.dominantColors + "<br>");
+        $("#picDescription").append("Object: " + data.objects[0].object + "<br>");
+    })
+    .fail(function (jqXHR, textStatus, errorThrown) {
+        var errorString = (errorThrown === "") ? "Error. " : errorThrown + " (" + jqXHR.status + "): ";
+        errorString += (jqXHR.responseText === "") ? "" : jQuery.parseJSON(jqXHR.responseText).message;
+        alert(errorString);
+    });
+};
 
 function processImage() {
     
     //確認區域與所選擇的相同或使用客製化端點網址
     var url = "https://eastus.api.cognitive.microsoft.com/";
-    var uriBase = url + "vision/v2.1/describe";
+    var uriBase = url + "vision/v2.1/analyze";
     
     var params = {
-        // "visualFeatures": "Faces,Objects,Adult,Brands,Categories,Description",
-        // "details": "Landmarks",
-        "maxCandidates":"10",
-        "language": "zh",
+        "visualFeatures": "Categories,Objects,Color",
+        "details":"",
+        "language": "en",
     };
     //顯示分析的圖片
     var sourceImageUrl = document.getElementById("inputImage").value;
@@ -84,10 +78,9 @@ function processImage() {
         //顯示JSON內容
         $("#responseTextArea").val(JSON.stringify(data, null, 2));
         $("#picDescription").empty();
-        for (var x = 0; x < data.description.captions.length;x++){
-            $("#picDescription").append(data.description.captions[x].text + "<br>");
-        }
-        // $("#picDescription").append("這裡有"+data.faces.length+"個人");
+        
+        $("#picDescription").append("Color: "+data.color.dominantColors+"<br>");
+        $("#picDescription").append("Object: "+data.objects[0].object+"<br>");
     })
     .fail(function(jqXHR, textStatus, errorThrown) {
         //丟出錯誤訊息
@@ -96,3 +89,4 @@ function processImage() {
         alert(errorString);
     });
 };
+
