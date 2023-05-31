@@ -15,10 +15,11 @@
 #### [完整code](https://github.com/cpeggy/LAT/blob/main/Hw5/main.js)
 ------
 ### 地端抓圖&圖上主要物件的顏色和主要物件名稱
-![實例3](https://github.com/cpeggy/LAT/blob/main/Hw4/echo.jpg)
-![實例4](https://github.com/cpeggy/LAT/blob/main/Hw4/echo.jpg)
-#### [完整code]()
-### 遇到的問題
+![實例3](https://github.com/cpeggy/LAT/blob/main/Hw5/maincolor_up.jpg)
+```
+*旁邊的回應都有呈現圖上的主要顏色和主要物件
+```
+#### [完整code](https://github.com/cpeggy/LAT/blob/main/Hw5/main -1.js)
 ### 未來展望：
 >可以利用鏡頭及時辨識影像
 >介面可以更活潑
