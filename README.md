@@ -22,5 +22,5 @@
 #### [HW3_juypternotebook](https://github.com/cpeggy/LAT/blob/main/HW3/Hw3.ipynb)
 ### [HW4_聊天機器人客服回應](https://github.com/cpeggy/LAT/blob/main/Hw4/README.md)
 ### [HW5_辨識圖與物件-教育目的結合圖片分析](https://github.com/cpeggy/LAT/blob/main/Hw5/README.md)
-### [加分作業]()
+### [加分作業](https://github.com/cpeggy/LAT/blob/main/S__20095000.jpg)
 ## 專題連結區
