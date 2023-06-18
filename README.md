@@ -22,5 +22,8 @@
 #### [HW3_juypternotebook](https://github.com/cpeggy/LAT/blob/main/HW3/Hw3.ipynb)
 ### [HW4_聊天機器人客服回應](https://github.com/cpeggy/LAT/blob/main/Hw4/README.md)
 ### [HW5_辨識圖與物件-教育目的結合圖片分析](https://github.com/cpeggy/LAT/blob/main/Hw5/README.md)
-### [加分作業]()
+### [加分作業](https://github.com/cpeggy/LAT/blob/main/S__20095000.jpg)
 ## 專題連結區
+### [程式碼](https://github.com/Owen5254/Final-CL3)
+### [Demo](https://www.figma.com/proto/Ff5eiiBTGaIfa5fe23sHhu/LAT-CL3?type=design&node-id=17-13118&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A13118)
+### [PPT](https://www.figma.com/proto/Ff5eiiBTGaIfa5fe23sHhu/LAT-CL3?type=design&node-id=46-2601&scaling=min-zoom&page-id=38%3A2600)
